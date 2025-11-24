@@ -1,0 +1,7 @@
+id,code,label
+1,"def read_user_input():\n    data = input()\n    os.system(data)\n",1
+2,"def add(a,b):\n    return a + b\n",0
+3,"def save_file(path, content):\n    f = open(path, 'w')\n    f.write(content)\n    f.close()\n",0
+4,"def run(cmd):\n    subprocess.call(cmd, shell=True)\n",1
+5,"def connect(db_uri):\n    conn = psycopg2.connect(db_uri)\n    return conn\n",0
+6,"def render_template(name):\n    template = open(name).read()\n    return template\n",1

@@ -1,0 +1,8 @@
+id,code,label
+1,"def exec_code(src):
+    eval(src)
+",1
+2,"def multiply(a,b):
+    return a*b
+",0
+...
